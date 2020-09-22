@@ -18,18 +18,18 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+hoi {}, my name is {}! Iam maintained by  [this person](tg://user?id={}).
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+🔋Powered by⚡️
+🔬 @dent_tech_for_u 📚
 
-My future updates will be put into This Channel - @MarieChechi & My Support Group @InFoTelGroup.
+🌏International🌍
+🦷Dental Discussion Group 📡
+🎉 Our Motto&Goal is to Spread Knowledge and Dental Science for All Dentists & Students Around The World for Free 🎉
+🎊🕯🔥If you have knowledge, let others light their candles in it.🔥🪔🎊
 
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
-you can create clone same like me..
 
-For more commands click /help...
-
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
+For more commands click /help
 
 """
 
@@ -40,7 +40,7 @@ Hello! my name *{}*.
 *Main* available commands:
  - /start: Start the bot...
  - /help: help....
- - /donate: To find out more about donating!
+ - /groups: To Join with Dent Tech!
  - /settings:
    - in PM: To find out what SETTINGS you have set....
    - in a group:
@@ -49,11 +49,15 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+GROUPS_STRING = """Heya, glad to hear you want to be a part!
+It took lots of work for [my creator](tg://user?id={}) to get me to where I am now.
+Dent Tech: @dent_tech_for_u
+Dent Tech Books: @dent_tech_for_books
+Dent Tech Library: @dent_tech_for_u_library
+Dental Pharmacology: @dent_tech_for_pharmacology
+Dental Case Study: @dent_tech_for_case_study
+Dental Online Library: @dentalonlinelibrarybot
+Feed Back: @dent_tech_support_bot"""
 
 IMPORTED = {}
 MIGRATEABLE = []
