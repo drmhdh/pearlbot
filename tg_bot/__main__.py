@@ -21,6 +21,7 @@ PM_START_TEXT = """
 hoi {}, my name is {}! im a group manager bot maintained by  [this person](tg://user?id={}).
 
 **Our Motto & Goal is to Spread Knowledge and Dental Science for All Dentists & Students Around The World for Free.**
+
 For more commands click /help...
 
 """
@@ -39,7 +40,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """Heya, glad to hear you want to be a part!
-It took lots of work for [my creator](tg://user?id={}) to get me to where I am now.
+It took lots of work for [my creator](t.me/dr_danger_007) to get me to where I am now.
 Dent Tech: @dent_tech_for_u
 Dent Tech Books: @dent_tech_for_books
 Dent Tech Library: @dent_tech_for_u_library
