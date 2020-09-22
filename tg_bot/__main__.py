@@ -18,16 +18,12 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! Iam maintained by  [this person](tg://user?id={}).
+hoi {}, my name is {}! Iam maintained by  [this person](tg://user?id={})
 
-🔋Powered by⚡️
-🔬 @dent_tech_for_u 📚
-
-🌏International🌍
-🦷Dental Discussion Group 📡
-🎉 Our Motto&Goal is to Spread Knowledge and Dental Science for All Dentists & Students Around The World for Free 🎉
-🎊🕯🔥If you have knowledge, let others light their candles in it.🔥🪔🎊
-
+Powered by @dent_tech_for_u
+International Dental Discussion Group.
+Our Motto&Goal is to Spread Knowledge and Dental Science for All Dentists & Students Around The World for Free.
+If you have knowledge, let others light their candles in it.
 
 For more commands click /help
 
@@ -38,13 +34,12 @@ HELP_STRINGS = """
 Hello! my name *{}*.
 
 *Main* available commands:
- - /start: Start the bot...
- - /help: help....
+ - /start: Start the bot
+ - /help: help
  - /groups: To Join with Dent Tech!
  - /settings:
-   - in PM: To find out what SETTINGS you have set....
+   - in PM: To find out what SETTINGS you have set
    - in a group:
-
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
