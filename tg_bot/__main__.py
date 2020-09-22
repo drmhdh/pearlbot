@@ -20,11 +20,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 hoi {}, my name is {}! im a group manager bot maintained by  [this person](tg://user?id={}).
 
-
-
-For more commands click /help...
-
 **Our Motto & Goal is to Spread Knowledge and Dental Science for All Dentists & Students Around The World for Free.**
+For more commands click /help...
 
 """
 
