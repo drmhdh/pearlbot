@@ -41,7 +41,7 @@ And the following:
 
 DONATE_STRING = """Heya, glad to hear you want to be a part!
 It took lots of work for [my creator](t.me/dr_danger_007) to get me to where I am now.
-Dent Tech: @dent_tech_for_u
+[Dent Tech](t.me/dent_tech_for_u)
 [Dent Tech Books](t.me/dent_tech_for_books)
 [Dent Tech Library](t.me/dent_tech_for_u_library)
 [Dental Pharmacology](t.me/dent_tech_for_pharmacology)
